@@ -9,12 +9,24 @@ Please, visit our website for more information: [http://www.opensupports.com/](h
 * PHP 5.6+
 * MySQL 4.1+
 
+### Install PHP 5.6+
+1. `sudo apt-get install software-properties-common`
+2. `sudo add-apt-repository ppa:ondrej/php`
+3. `sudo apt-get update`
+4. `sudo apt-get install -y php5.6`
+
+### Install MySQL 4.1+
+1.
+2.
+3.
+4.
+
 ## Development
 Here is a guide of how to set up the development environment in OpenSupports.
 
 ### Getting up and running FRONT-END (client folder)
 1. Update: `sudo apt-get update`
-2. Clone this repo: `git clone https://github.com/opensupports/opensupports.git`
+2. Clone this repo: `git clone https://github.com/TheBoatyMcBoatFace/opensupports.git`
 3. Install node 4.x version:
     - `sudo apt-get install curl`
     - `curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -`
